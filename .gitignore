@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# uv
+.uv/
+uv.lock
+
+# Environment
+.env 
+
+# Data - raw and processed files are not committed
+data/raw/
+data/processed/
+
+# Database files
+*.db 
+*.duckdb 
+
+# Coverage
+.coverage 
+coverage.xml 
+htmlcov 
+
+# IDE 
+.vscode/
+.idea/
+*.swp 
+
+# OS 
+.DS_Store 
+Thumbs.db 
+
+# Pytest
+.pytest_cache/ 
